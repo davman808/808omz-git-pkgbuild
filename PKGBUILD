@@ -6,10 +6,10 @@ pkgdesc="this is the oh-my-zsh config that i use"
 arch=(any)
 url="https://github.com/davman808/808omz-git.git"
 license=('MIT-Modern-Variant')
-depends=(zsh zsh-autosuggestions  zsh-completions  zsh-history-substring-search  zsh-syntax-highlighting)
+depends=(zsh zsh-autosuggestions  zsh-completions  zsh-history-substring-search  zsh-syntax-highlighting oh-my-zsh-git)
 makedepends=(git)
-provides=(oh-my-zsh-git)
-replaces=(oh-my-zsh-git)
+provides=()
+replaces=()
 source=("git+$url")
 md5sums=("SKIP")
 
